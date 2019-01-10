@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <!-- 합쳐지고 최소화된 최신 CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
-    <!-- 부가적인 테마 -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
-    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
 
     <style>
-        body {
+        html, body { height:100%; margin:0px; padding:0px;}
+        .container {
+            height: 800px;
             width:1000px;
             margin:0 auto;
+            padding: 0px;
+            background-color: #f2f2f2;
+            clear:both;
+        }
+        .wrap {
+            margin-top:70px;
+        }
+        .wrap h1{
+            padding-top:50px;
+            font-size: 50px;
+            font-family: 'Do Hyeon', sans-serif;
         }
         .content {
             float:left;
@@ -30,17 +36,29 @@
             width:90%;
             height: 459px;
         }
+        #footer {
+            height: 100px;
+        }
     </style>
 </head>
 <body>
-    <div class="wrap" align="center">
-        <h1>토옥 토옥</h1>
-        <hr>
-        <p>2019.01</p>
-        <hr>
-        <div class="content"><a href="news.html"><img src="news.jpg" /></a></div>
-        <div class="content"><a href="card.html"><img src="card.jpg" /></a></div>
-        <div class="content"><a href="kakao.html"><img src="kakao.jpg" /></a></div>
+
+    <div id="header" style="width:1000px; margin:0 auto;">
+        <img src="logo.png" width="120px" style="float:right;">
     </div>
+    <div class="container">
+        <!-- header 나비 -->
+        <div class="wrap" align="center">
+            <h1>토-옥 &nbsp; 토-옥</h1>
+            <hr>
+            <p style="font-size: 25px;">2019.01</p>
+            <hr>
+            <div class="content"><a href="news.html"><img src="news.jpg" /></a></div>
+            <div class="content"><a href="card.html"><img src="card.jpg" /></a></div>
+            <div class="content"><a href="kakao.html"><img src="kakao.jpg" /></a></div>
+        </div>
+    </div>
+    <div id="footer"></div>
+
 </body>
 </html>
