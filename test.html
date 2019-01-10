@@ -1,0 +1,28 @@
+<!doctype html>
+<head>
+  <style>
+    /* Prevents slides from flashing */
+    #slides {
+      display:none;
+    }
+  </style>
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
+
+  <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="slides">
+    <img src="slides/슬라이드2.JPG">
+    <img src="slides/슬라이드3.JPG">
+    <img src="slides/슬라이드4.JPG">
+  </div>
+</body>
