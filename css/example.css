@@ -260,7 +260,7 @@ a:hover {
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {/*2개*/
-  width: 700px;
+  width: 70vh;
 }
 .span12 {
   width: 500px;
@@ -1266,7 +1266,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 700px;/*1개*/
+  width: 70vh;/*1개*/
 }
 .navbar-fixed-top {
   top: 0;
